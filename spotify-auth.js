@@ -1,5 +1,5 @@
 const CLIENT_ID = "dede0cc513fc419ab9701c2b2a3b2d0f";
-const REDIRECT_URI = "https://darling-kitsune-d03c7c.netlify.app/";
+const REDIRECT_URI = "https://btsfm.netlify.app/";
 const SCOPES = "user-read-private user-read-email";
 
 function generateRandomString(length) {
