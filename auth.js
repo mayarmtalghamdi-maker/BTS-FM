@@ -41,13 +41,13 @@ String.fromCharCode(...new Uint8Array(input))
 
 }
 async function loginWithSpotify() {
-
+alert("Button clicked");
     const verifier = await generateCodeVerifier(128);
 
     localStorage.setItem("verifier", verifier);
 
     const challenge = base64encode(await sha256(verifier));
-
+alert("Challenge created");
     const params = new URLSearchParams();
 
     params.append("client_id", clientId);
@@ -56,7 +56,7 @@ async function loginWithSpotify() {
     params.append("scope", scope);
     params.append("code_challenge_method", "S256");
     params.append("code_challenge", challenge);
-
+alert("Redirecting to Spotify");
     window.location =
         "https://accounts.spotify.com/authorize?" +
         params.toString();
