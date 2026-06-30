@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>BTS FM</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+<div class="glow"></div>
+<header class="navbar">
+
+    <div class="logo">
+        BTS<span>FM</span>
+    </div>
+ 
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="charts.html">Charts</a>
+
+<a href="albums.html">Albums</a>
+
+<a href="#members">Artists</a>
+
+</nav>
+
+ <button class="login-btn" id="loginBtn">
+Login with Spotify
+</button>
+
+</header>
+<section class="search-section">
+
+<div class="search-box">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Search songs, albums, artists...">
+
+<button id="searchBtn">
+Search
+</button>
+
+</div>
+
+</section>
+<section class="hero">
+
+  <span class="badge">
+    🎵 World's #1 BTS Analytics Platform
+  </span>
+
+  <h1>
+    Discover Every BTS
+    <br>
+    Song, Album & Chart
+  </h1>
+
+  <p>
+    Real-time music analytics, albums, charts,
+    streaming statistics and artist insights.
+  </p>
+
+  <div class="hero-buttons">
+
+    <button class="explore-btn">
+      Explore Now
+    </button>
+
+    <button class="secondary-btn">
+      View Charts
+    </button>
+
+  </div>
+
+</section>
+<section class="featured">
+
+  <div class="featured-text">
+
+    <span class="featured-tag">Featured Album</span>
+
+    <h2>Proof</h2>
+
+    <p>
+      BTS anthology album featuring the group's greatest hits,
+      demos and three brand-new songs.
+    </p>
+
+    <button class="explore-btn">
+      View Album
+    </button>
+
+  </div>
+
+  <div class="featured-cover">
+<img src="proof.jpg" class="album-art" alt="Proof">
+  </div>
+
+</section>
+<section class="stats">
+
+  <div class="card">
+    <h2>615M</h2>
+    <p>Monthly Streams</p>
+  </div>
+
+  <div class="card">
+    <h2>280+</h2>
+    <p>Songs</p>
+  </div>
+
+  <div class="card">
+    <h2>36</h2>
+    <p>Albums</p>
+  </div>
+
+  <div class="card">
+    <h2>#1</h2>
+    <p>Global Artist</p>
+  </div>
+
+</section>
+
+<section class="members" id="members">
+
+<h2 class="section-title">BTS Members</h2>
+
+<div class="member-grid">
+
+<div class="member">
+<img src="rm.jpg" class="member-img" alt="RM">
+<h3>RM</h3>
+<p>Leader • Rapper</p>
+</div>
+
+<div class="member">
+<img src="jin.jpg" class="member-img" alt="Jin">
+<h3>Jin</h3>
+<p>Vocalist</p>
+</div>
+
+<div class="member">
+<img src="suga.jpg" class="member-img" alt="SUGA">
+<h3>SUGA</h3>
+<p>Rapper • Producer</p>
+</div>
+
+<div class="member">
+<img src="j-hope.jpg" class="member-img" alt="J-Hope">
+<h3>j-hope</h3>
+<p>Rapper • Dancer</p>
+</div>
+
+<div class="member">
+<img src="jimin.jpg" class="member-img" alt="Jimin">
+<h3>Jimin</h3>
+<p>Vocalist • Dancer</p>
+</div>
+
+<div class="member">
+<img src="v.jpg" class="member-img" alt="V">
+<h3>V</h3>
+<p>Vocalist</p>
+</div>
+
+<div class="member">
+<img src="jungkook.jpg" class="member-img" alt="Jungkook">
+<h3>Jungkook</h3>
+<p>Main Vocalist</p>
+</div>
+
+</div>
+
+</section>
+<section class="albums">
+
+<h2 class="section-title">Latest Albums</h2>
+
+<div class="album-grid">
+
+<div class="album-card">
+<img class="album-cover" src="proof.jpg" alt="Proof">
+<h3>Proof</h3>
+<p>Released 2022</p>
+</div>
+
+<div class="album-card">
+<img class="album-cover" src="arirang.jpg" alt="Arirang">
+<h3>ARIRANG</h3>
+<p>Released 2026</p>
+</div>
+
+<div class="album-card">
+<img class="album-cover" src="be.jpg" alt="BE">
+<h3>BE</h3>
+<p>Released 2020</p>
+</div>
+
+<div class="album-card">
+<img class="album-cover" src="mots7.jpg" alt="Map of the Soul 7">
+<h3>Map of the Soul: 7</h3>
+<p>Released 2020</p>
+</div>
+
+</div>
+
+</section>
+<section class="charts">
+
+  <h2 class="section-title">Top Charts</h2>
+
+  <div class="chart-list">
+
+    <div class="chart-item">
+      <span class="rank">#1</span>
+      <div>
+        <h3>Dynamite</h3>
+        <p>BTS</p>
+      </div>
+      <span class="trend up">▲</span>
+    </div>
+
+    <div class="chart-item">
+      <span class="rank">#2</span>
+      <div>
+        <h3>Butter</h3>
+        <p>BTS</p>
+      </div>
+      <span class="trend same">•</span>
+    </div>
+
+    <div class="chart-item">
+      <span class="rank">#3</span>
+      <div>
+        <h3>Spring Day</h3>
+        <p>BTS</p>
+      </div>
+      <span class="trend down">▼</span>
+    </div>
+
+    <div class="chart-item">
+      <span class="rank">#4</span>
+      <div>
+        <h3>Seven</h3>
+        <p>Jungkook</p>
+      </div>
+      <span class="trend new">NEW</span>
+    </div>
+<div class="chart-item">
+  <span class="rank">#5</span>
+  <div>
+    <h3>Like Crazy</h3>
+    <p>Jimin</p>
+  </div>
+  <span class="trend up">▲</span>
+</div>
+
+<a href="charts.html" class="explore-btn">View Full Charts</a>
+  </div>
+
+</section>
+<section class="footer-stats">
+
+  <div class="footer-box">
+    <h2>615M+</h2>
+    <span>Monthly Streams</span>
+  </div>
+
+  <div class="footer-box">
+    <h2>280+</h2>
+    <span>Tracks</span>
+  </div>
+
+  <div class="footer-box">
+    <h2>36</h2>
+    <span>Albums</span>
+  </div>
+
+  <div class="footer-box">
+    <h2>12+</h2>
+    <span>Years</span>
+  </div>
+
+</section>
+
+<footer>
+
+<div class="footer-logo">
+
+BTS <span>FM</span>
+
+</div>
+
+<p>
+
+The Ultimate BTS Analytics Platform
+
+</p>
+
+<div class="footer-links">
+
+<a href="#">Home</a>
+
+<a href="charts.html">Charts</a>
+
+<a href="albums.html">Albums</a>
+
+<a href="#">Members</a>
+
+<a href="#">About</a>
+
+</div>
+
+<p class="copyright">
+
+© 2026 BTS FM. All Rights Reserved.
+
+</p>
+
+</footer>
+
+<script src="auth.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>	
